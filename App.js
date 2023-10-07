@@ -1,5 +1,7 @@
 import React from 'react';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import Home from './src/screens/Home';
+import {StyleSheet} from 'react-native';
 
 const App = () => {
   return <Home />;
