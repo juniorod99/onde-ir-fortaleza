@@ -5,12 +5,14 @@ import styles from './styles';
 import Categories from '../../components/Categories';
 import AttractionCard from '../../components/AttractionCard';
 import {StyleSheet} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 import jsonData from '../../data/attractions.json';
 import categories from '../../data/categories.json';
 
 const ALL = 'All';
 
 const Home = () => {
+  const navigation = useNavigation();
   const [selectedCategory, setSelectedCategory] = useState(ALL);
   const [data, setData] = useState([]);
 
@@ -63,6 +65,7 @@ const Home = () => {
                 ? {marginRight: 12, marginLeft: 32}
                 : {marginRight: 32}
             }
+            onPress={() => navigation.navigate('AttractionDetails', {item})}
             title={item.name}
             subtitle={item.city}
             imageSrc={item.images?.length ? item.images[0] : null}
