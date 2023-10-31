@@ -1,4 +1,18 @@
 {
   "name": "TravelApp",
-  "displayName": "TravelApp"
+  "displayName": "TravelApp",
+  "expo": {
+    "name": "TravelApp",
+    "slug": "TravelApp",
+    "ios": {
+      "bundleIdentifier": "com.TravelApp"
+    },
+    "android": {
+      "package": "com.TravelApp"
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "http://localhost:3000/api/manifest"
+    }
+  }
 }
