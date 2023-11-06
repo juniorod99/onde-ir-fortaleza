@@ -5,6 +5,7 @@ const {height} = Dimensions.get('window');
 const styles = StyleSheet.create({
   container: {
     margin: 32,
+    marginTop: 50,
   },
   mainImage: {
     width: '100%',
@@ -75,9 +76,16 @@ const styles = StyleSheet.create({
   },
   map: {
     width: '100%',
-    height: 400,
+    height: 200,
     borderRadius: 20,
-    paddingBottom: 140,
+  },
+  mapText: {
+    fontWeight: 'bold',
+    fontSize: 16,
+    color: '#4681A3',
+    textAlign: 'center',
+    padding: 16,
+    marginBottom: 60,
   },
 });
 

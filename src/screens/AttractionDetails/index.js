@@ -11,6 +11,7 @@ import styles from './styles';
 import MapView, {Marker} from 'react-native-maps';
 import Title from '../../components/Title';
 import InfoCard from '../../components/InfoCard';
+// import Share from 'react-native-share';
 import {ScrollView} from 'react-native-gesture-handler';
 
 const AttractionDetails = ({navigation, route}) => {
@@ -34,6 +35,16 @@ ${item?.opening_time} - ${item?.closing_time}`;
   const onGalleryNavigate = () => {
     navigation.navigate('Gallery', {images: item?.images});
   };
+
+  // const onShare = () => {
+  //   Share.open({title: item?.name, message: 'text'})
+  //     .then(res => {
+  //       console.log(res);
+  //     })
+  //     .catch(err => {
+  //       err && console.log(err);
+  //     });
+  // };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -94,6 +105,12 @@ ${item?.opening_time} - ${item?.closing_time}`;
         <MapView style={styles.map} initialRegion={coords}>
           <Marker coordinate={coords} title={item?.name} />
         </MapView>
+
+        <Text
+          style={styles.mapText}
+          onPress={() => navigation.navigate('Map', {item})}>
+          Show full screen map
+        </Text>
       </ScrollView>
     </SafeAreaView>
   );
