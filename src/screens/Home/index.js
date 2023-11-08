@@ -9,7 +9,7 @@ import {useNavigation} from '@react-navigation/native';
 import jsonData from '../../data/attractions.json';
 import categories from '../../data/categories.json';
 
-const ALL = 'All';
+const ALL = 'Todos';
 
 const Home = () => {
   const navigation = useNavigation();
@@ -39,13 +39,13 @@ const Home = () => {
         numColumns={2}
         style={{flexGrow: 1}}
         ListEmptyComponent={
-          <Text style={styles.emptyText}>No items found</Text>
+          <Text style={styles.emptyText}>Nenhum item encontrado</Text>
         }
         ListHeaderComponent={
           <>
             <View style={{margin: 32}}>
-              <Title text="Para onde" style={{fontWeight: 'normal'}} />
-              <Title text="você gostaria de ir?" />
+              <Title text="Toda Fortaleza" style={{fontWeight: 'normal'}} />
+              <Title text="na palma da sua mão!" />
 
               <Title text="Explorar atrações" style={styles.subtitle} />
             </View>
