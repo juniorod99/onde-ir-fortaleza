@@ -19,7 +19,7 @@ const AttractionDetails = ({navigation, route}) => {
   const mainImage = item?.images?.length ? item.images[0] : null;
   const slicedImages = item?.images?.length ? item?.images?.slice(0, 5) : [];
   const diffImages = item?.images?.length - slicedImages?.length;
-  const openingHours = `OPEN
+  const openingHours = `Horários
 ${item?.opening_time} - ${item?.closing_time}`;
   const coords = {
     latitude: item?.coordinates?.lat,
@@ -109,7 +109,7 @@ ${item?.opening_time} - ${item?.closing_time}`;
         <Text
           style={styles.mapText}
           onPress={() => navigation.navigate('Map', {item})}>
-          Show full screen map
+          Exibir mapa em tela cheia
         </Text>
       </ScrollView>
     </SafeAreaView>

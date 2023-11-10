@@ -3,16 +3,31 @@
   "displayName": "TravelApp",
   "expo": {
     "name": "TravelApp",
+    "icon": "./assets/icon.png",
     "slug": "TravelApp",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
     "ios": {
       "bundleIdentifier": "com.TravelApp"
     },
     "android": {
-      "package": "com.TravelApp"
+      "package": "com.TravelApp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
     },
     "runtimeVersion": "1.0.0",
     "updates": {
       "url": "http://localhost:3000/api/manifest"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a8fcc772-9ec3-4172-a5d3-ef27043e646b"
+      }
     }
   }
 }

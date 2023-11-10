@@ -1,99 +1,216 @@
 [
-    {
-        "id": 1,
-        "name": "Colosseum",
-        "city": "Rome",
-        "country": "Italy",
-        "entry_price": "$20",
-        "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
-        "opening_time": "9:00 AM",
-        "closing_time": "7:00 PM",
-        "categories": [
-            "Most Visited",
-            "Historical"
-        ],
-        "images": [
-            "https://www.arttrav.com/wp-content/uploads/2021/06/colosseum-alexandrakorey.jpg",
-            "https://www.history.com/.image/t_share/MTkwODIxMzcwNDI5NDQ5OTEw/gettyimages-1081719544.jpg",
-            "https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
-            "https://static01.nyt.com/images/2022/06/12/world/12italy-colosseum-01/merlin_206622975_bf44e9c5-b817-405f-b46a-33f6fe5f88a8-superJumbo.jpg",
-            "http://cdn.cnn.com/cnnnext/dam/assets/200925160752-colosseum-file-restricted.jpg",
-            "https://www.travelandleisure.com/thmb/t74QyXS4Oi2C0Lg-_waWgOKTstI=/1600x1000/filters:fill(auto,1)/colosseum-rome-night-stars-ARENA0217-b7ebd36d82b0427caaac90674ba17028.jpg",
-            "https://www.onthegotours.com/blog/wp-content/uploads/2019/05/Colosseum-in-the-morning-Rome-Italy.jpg",
-            "https://hips.hearstapps.com/hmg-prod/images/tod-s-for-colosseum-hypogea-1-1624912790.jpg"
-        ],
-        "coordinates": {
-            "lat": 41.8902,
-            "lon": 12.4922
-        }
-    },
-    {
-        "id": 2,
-        "name": "Taj Mahal",
-        "city": "Agra",
-        "country": "India",
-        "entry_price": "$14",
-        "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India",
-        "opening_time": "7:00 AM",
-        "closing_time": "5:00 PM",
-        "categories": [
-            "Most Visited",
-            "Historical"
-        ],
-        "images": [
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6e/b1/6a/caption.jpg?w=1200&h=-1&s=1",
-            "https://www.forbesindia.com/media/images/2022/May/img_184243_tajmahalindia.jpg",
-            "https://www.tajmahal.gov.in/images/tajmahal-view/day/1.jpg"
-        ],
-        "coordinates": {
-            "lat": 27.1751,
-            "lon": 78.0421
-        }
-    },
-    {
-        "id": 3,
-        "name": "Eiffel Tower",
-        "city": "Paris",
-        "country": "France",
-        "entry_price": "$25",
-        "address": "Champ de Mars, 5 Av. Anatole France, 75007 Paris, France",
-        "opening_time": "9:30 AM",
-        "closing_time": "10:45 PM",
-        "categories": [
-            "Most Visited",
-            "Recommended"
-        ],
-        "images": [
-            "https://www.planetware.com/photos-large/F/eiffel-tower.jpg",
-            "https://www.thetrainline.com/cms/media/1360/france-eiffel-tower-paris.jpg?mode=crop&width=1080&height=1080&quality=70",
-            "https://www.grunge.com/img/gallery/the-bizarre-history-of-the-eiffel-tower/l-intro-1602781703.jpg",
-            "https://th-thumbnailer.cdn-si-edu.com/Q-oOOYwzuhWGLlUa0NvS4jbMGoI=/fit-in/1600x0/filters:focal(1500x1000:1501x1001)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/04/0f/040fc6b3-2c00-4592-9993-8c0c485fcf99/gettyimages-142198198.jpg"
-        ],
-        "coordinates": {
-            "lat": 48.8584,
-            "lon": 2.2945
-        }
-    },
-    {
-        "id": 4,
-        "name": "Leaning Tower of Pisa",
-        "city": "Pisa",
-        "country": "Italy",
-        "entry_price": "$20",
-        "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-        "opening_time": "9:00 AM",
-        "closing_time": "07:00 PM",
-        "categories": [
-            "Popular"
-        ],
-        "images": [
-            "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-            "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-            "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
-        ],
-        "coordinates": {
-            "lat": 43.7230,
-            "lon": 10.3966
-        }
+  {
+    "id": 1,
+    "name": "Theatro José de Alencar",
+    "city": "Centro",
+    "country": "Brasil",
+    "entry_price": "R$10",
+    "address": "R. Liberato Barroso, 525 – Centro",
+    "opening_time": "14:00",
+    "closing_time": "22:00",
+    "categories": ["Mais Visitados", "Cultural", "Recomendados"],
+    "images": [
+      "https://www.secult.ce.gov.br/wp-content/uploads/sites/43/2020/02/Fachada-Vitral-Gentil-Barreira-1200x880.jpg",
+      "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:7.4452587:1592401993/tja%2030.jpg?f=16x9&$p$f=0a5e302",
+      "https://s3-sa-east-1.amazonaws.com/img.guiadasartes.com.br/eve/612-theatro-jose-de-alencar-/c4w8ciNw.jpg",
+      "https://www.fortaleza.ce.gov.br/images/theatrojosdealencar.jpg",
+      "https://mapacultural.secult.ce.gov.br/files/space/317/aerea_tja.jpg",
+      "https://blogbirutagaivota.files.wordpress.com/2013/01/theatro-plateia.jpg",
+      "https://www.ceara.gov.br/wp-content/uploads/2020/09/MG_0446.jpg",
+      "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:7.4452586:1592401871/TJA-por-dentro.jpg?f=default&$p$f=9cce62a"
+    ],
+    "coordinates": {
+      "lat": -3.726558648749494,
+      "lon": -38.53167260000001
     }
+  },
+  {
+    "id": 2,
+    "name": "Museu do Ceará",
+    "city": "Centro",
+    "country": "Brasil",
+    "entry_price": "R$0",
+    "address": "R. São Paulo, 51 - Centro",
+    "opening_time": "9:00",
+    "closing_time": "17:00",
+    "categories": ["Cultural"],
+    "images": [
+      "https://www.opovo.com.br/_midias/jpg/2021/07/02/museo_do_ceara___rua_sao_paulo-16290115.jpg",
+      "https://www.opovo.com.br/_midias/jpg/2022/02/01/museu_do_ceara__2_-18009350.jpg",
+      "https://imgmd.net/images/v1/guia/1574750/museu-do-ceara.jpg"
+    ],
+    "coordinates": {
+      "lat": -3.726236636160374,
+      "lon": -38.526684671164055
+    }
+  },
+  {
+    "id": 3,
+    "name": "Parque Estadual do Cocó",
+    "city": "Cocó",
+    "country": "Brasil",
+    "entry_price": "R$0",
+    "address": "Av. Padre Antônio Tomás, s/n - Cocó",
+    "opening_time": "5:30",
+    "closing_time": "22:00",
+    "categories": ["Parques", "Recomendados"],
+    "images": [
+      "https://s2-g1.glbimg.com/zuHajff86izEMhDLwKsT_qEXTYA=/0x0:800x533/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/c/3/rCDhC2TB6A8QciS8q5Aw/coco.jpeg",
+      "https://www.ceara.gov.br/wp-content/uploads/2018/12/IMG_2350.jpg",
+      "https://www.ceara.gov.br/wp-content/uploads/2019/07/Parque-do-Coco1.jpg",
+      "https://x4k6j7s8.stackpathcdn.com/wp-content/uploads/2021/08/parque-estadual-rio-coco.jpg",
+      "https://www.ceara.gov.br/wp-content/uploads/2019/04/IMG_2489-1.jpg",
+      "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3092670:1622563721/Trilha.jpg?f=default&$p$f=bceb019",
+      "https://www.opovo.com.br/_midias/jpg/2019/06/12/plantio_de_arvores_no_parque_do_coco_2-3015142.jpg"
+    ],
+    "coordinates": {
+      "lat": -3.7443149901462953,
+      "lon": -38.486169261375295
+    }
+  },
+  {
+    "id": 4,
+    "name": "Parque da Liberdade",
+    "city": "Centro",
+    "country": "Brasil",
+    "entry_price": "$20",
+    "address": "R. Pedro I, s/n - Centro",
+    "opening_time": "5:30",
+    "closing_time": "22:00",
+    "categories": ["Mais Visitados", "Parques"],
+    "images": [
+      "https://www.fortaleza.ce.gov.br/images/images1/062020/23%2006%202020%20Cidade%20da%20Crian%C3%A7a%20IMG_8869.jpg",
+      "https://www.opovo.com.br/_midias/jpg/2021/12/21/818x460/1_parque_das_crianc__as_10-17738102.jpg",
+      "https://www.anuariodoceara.com.br/wp-content/uploads/2016/07/Parque-da-Liberdade-e1501249203840.jpg"
+    ],
+    "coordinates": {
+      "lat": -3.73049017563252,
+      "lon": -38.525808
+    }
+  },
+  {
+    "id": 5,
+    "name": "Praia de Iracema",
+    "city": "Beira Mar",
+    "country": "Brasil",
+    "entry_price": "R$0",
+    "address": "Av. Beira Mar, 2958 - Praia de Iracema",
+    "opening_time": "00:00",
+    "closing_time": "23:00",
+    "categories": ["Praias", "Recomendados"],
+    "images": [
+      "https://www.opovo.com.br/_midias/jpg/2022/01/24/818x460/1_whatsapp_image_2022_01_17_at_11_30_36-17945911.jpeg",
+      "https://4.bp.blogspot.com/-us9VjXsoPJ4/WdTWAlQCZKI/AAAAAAAAkwo/GCVao2zMFZU-YICWdorWdjg31PKqMju0gCPcBGAYYCw/s1600/Beira%2BMar%2Bde%2BFortaleza.jpg",
+      "https://www.voltologo.net/wp-content/uploads/2021/03/hoteis-na-praia-de-iracema.jpg",
+      "https://www.opovo.com.br/_midias/jpg/2022/11/20/800x600/1_aterro_praia_de_iracema-20281553.jpg",
+      "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3176367:1640993278/Reveillon.jpeg?f=default&$p$f=dfdd328",
+      "https://www.fortaleza.ce.gov.br/images/images1/00000000000/1Julho000/13%2007%202022%20BM%20IMG_8396.jpg"
+    ],
+    "coordinates": {
+      "lat": -3.73049017563252,
+      "lon": -38.525808
+    }
+  },
+  {
+    "id": 6,
+    "name": "Praia do Futuro",
+    "city": "Antonio Diogo",
+    "country": "Brasil",
+    "entry_price": "$0",
+    "address": "Av. Zezé Diogo, 5063-4607 - Antonio Diogo",
+    "opening_time": "00:00",
+    "closing_time": "23:00",
+    "categories": ["Mais Visitados", "Praias"],
+    "images": [
+      "https://www.viajali.com.br/wp-content/uploads/2020/03/praia-do-futuro.jpg",
+      "https://www.rotemix.com.br/sys/fotos-artigos/341/rm_61f288e8ee2a6.jpg",
+      "https://www.ceara.gov.br/wp-content/uploads/2020/01/Praia2.jpg",
+      "https://www.opovo.com.br/_midias/jpg/2021/09/12/818x460/1_movimentacao_praia_do_futuro_fotos_por_fernanda_barros_16-17026352.jpg",
+      "https://www.ceara.gov.br/wp-content/uploads/2020/02/Praia1_140220.jpg"
+    ],
+    "coordinates": {
+      "lat": -3.7492512153590325,
+      "lon": -38.44710624434567
+    }
+  },
+  {
+    "id": 7,
+    "name": "RioMar Kennedy",
+    "city": "Presidente Kennedy",
+    "country": "Brasil",
+    "entry_price": "$0",
+    "address": "Av. Sgt. Hermínio Sampaio, 3100 - Pres. Kennedy",
+    "opening_time": "10:00",
+    "closing_time": "22:00",
+    "categories": ["Shoppings", "Recomendados"],
+    "images": [
+      "https://www.baladain.com.br/wp-content/uploads/2020/07/image002.jpg",
+      "https://riomarkennedyonline.com.br/riomarkennedyonline/2023/02/WhatsApp-Image-2023-02-15-at-14.37.21-2-790x510.jpg",
+      "https://www.portalin.com.br/wp-content/uploads/2022/03/image018.jpg"
+    ],
+    "coordinates": {
+      "lat": -3.7255814140144996,
+      "lon": -38.56709876853856
+    }
+  },
+  {
+    "id": 8,
+    "name": "Shopping Iguatemi",
+    "city": "Edson Queiroz",
+    "country": "Brasil",
+    "entry_price": "$0",
+    "address": "Av. Washington Soares, 85 - Edson Queiroz",
+    "opening_time": "10:00",
+    "closing_time": "22:00",
+    "categories": ["Mais Visitados", "Shoppings"],
+    "images": [
+      "https://oestadoce.com.br/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-29-at-17.37.51.jpeg",
+      "https://gironacidade.com.br/wp-content/uploads/2020/04/Iguatemi-1-1024x683.jpg",
+      "https://www.baladain.com.br/wp-content/uploads/2021/01/pracas-iguatemi-1-1024x683.jpg"
+    ],
+    "coordinates": {
+      "lat": -3.755774398518199,
+      "lon": -38.48933417556053
+    }
+  },
+  {
+    "id": 9,
+    "name": "Coco Bambu Sul",
+    "city": "Parque Manibura",
+    "country": "Brasil",
+    "entry_price": "$20",
+    "address": "R. República da Armênia, 1154 - Parque Manibura",
+    "opening_time": "11:00",
+    "closing_time": "00:00",
+    "categories": ["Mais Visitados", "Restaurantes"],
+    "images": [
+      "https://cocobambu.com/wp-content/uploads/2022/01/MG_5526.jpg",
+      "https://cocobambu.com/wp-content/uploads/2022/01/MG_5580.jpg",
+      "https://www.baratocoletivo.com.br/static/team/2011/0906/13153572489464.jpg"
+    ],
+    "coordinates": {
+      "lat": -3.7909327681203053,
+      "lon": -38.481479550648785
+    }
+  },
+  {
+    "id": 10,
+    "name": "Salt Pepper Burguer",
+    "city": "Parquelândia",
+    "country": "Brasil",
+    "entry_price": "$20",
+    "address": "Rua Professor Nogueira, 125a - Parquelândia",
+    "opening_time": "17:00",
+    "closing_time": "22:30",
+    "categories": ["Restaurantes", "Recomendados"],
+    "images": [
+      "https://static.baratocoletivo.com.br/2023/0904/g_a41cf0104c.jpg",
+      "https://10619-2.s.cdn12.com/rests/original/109_528729811.jpg",
+      "https://static.baratocoletivo.com.br/2023/0904/g_db4e28e74e.jpg"
+    ],
+    "coordinates": {
+      "lat": -3.7340996102693964,
+      "lon": -38.54961060414744
+    }
+  }
 ]

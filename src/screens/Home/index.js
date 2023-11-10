@@ -44,7 +44,10 @@ const Home = () => {
         ListHeaderComponent={
           <>
             <View style={{margin: 32}}>
-              <Title text="Toda Fortaleza" style={{fontWeight: 'normal'}} />
+              <Title
+                text="O melhor de Fortaleza"
+                style={{fontWeight: 'normal'}}
+              />
               <Title text="na palma da sua mão!" />
 
               <Title text="Explorar atrações" style={styles.subtitle} />
